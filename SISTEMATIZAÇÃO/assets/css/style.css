@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+
+                                /* HEADER */
+
+
+.banner {
+    
+    max-width: 100%;
+}
+
+
+header{
+    background-color: #fff;
+    position: sticky;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+header .logo {
+    max-width: 250px;
+    
+}
+
+
+header .navigation ul{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li{
+    list-style: none;
+}
+
+header .navigation li a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 100px;
+    
+}
+ header .navigation li a:hover {
+    background: #396e85;
+    border-radius: 40px;
+    color: #fff
+
+    
+}
+
+
+                                /* FIM DO HEADER */
+
+
+                                /*  MAIN */
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container .text {
+    
+    position: absolute;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.container .text h2 {
+    color: white;
+    font-size: 2.9em;
+    margin-bottom: 10px;
+    font-weight: 700;
+    padding: 200px 100px;
+    
+}
+
+.servicos a {
+    display: inline-block;
+    margin-top: 50px;
+    background: #396e85;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    padding: 15px 25px;
+    border-radius: 40px;
+    transition: 0.4s ease-in-out;
+}
+
+.servicos a:hover{
+    
+    padding: 30px 10px
+    
+}
+
+
+.adress  {
+    color: #fff;
+    display: flex;
+    background-color: #396e85;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.cep p {
+    color:white;
+    display: flex;
+    justify-content: center;
+    margin-left: 900px;
+}
+    
+
+
+.localization{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 20px;
+    
+
+}
+
+
+h4 {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #396e85;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: 900;
+    font-size: 45px;
+    color: #052e3f;
+}
+
+
+.especialidades {
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+
+.especialidades img {
+    height: 30px;
+    padding-right: 10px;
+    
+}
+
+
+.especialidades .lista1 {
+    list-style: none;
+    margin-top: 70px;
+    margin-right: 150px;
+    margin-bottom: 90px;
+    font-size: 35px;
+    color: gray;
+    
+}
+
+.especialidades .lista2 {
+    list-style: none;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-bottom: 90px;
+    font-size: 35px;
+    color: gray;
+}
+
+.form {
+   
+    background-color: #c3d3da;
+    align-items: center;
+    
+
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px;
+    color: #052e3f;
+    font-weight: 500;
+    
+    
+    
+
+}
+
+input {
+    
+    width: 300px;
+    height: 30px;
+
+}
+
+
+label {
+    display: inline-flex;
+    width: 210px;
+    
+    
+}
+
+
+.input-group1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    
+    
+    
+    
+}
+.send {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.send a {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #396e85;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 40px;
+    transition: 0.4s ease-in-out;
+
+}
+
+.send a:hover {
+    transform: translateY(-.3125rem);
+    padding: 20px 20px;
+}
+
+.division {
+    max-width: 100%;
+    background-color: #fff;
+    height: 40px;
+}
+
+                                /* FIM DO MAIN */
+
+
+
+
+
+                                
+                                /* FOTTER */
+ 
+ 
+
+                                
+
+                                
+footer .principal {
+    
+ color: #fff;
+ background-color: #052e3f;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 40px 0px;
+ 
+}                   
+
+
+
+.logo-footer {
+ 
+    width: 250px;
+    
+}
+
+
+footer ul {
+    list-style: none;
+    
+}
+
+
+footer .list ul li a {
+    text-decoration: none;
+    line-height: 45px;
+    color: #87c2dc;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer .list ul li a:hover {
+    border-radius: 40px;
+    background: #87c2dc;
+    color: #052e3f;
+    transition: 0.4s ease-in-out;
+
+}
+
+.principal h6 {
+    font-size: 15px;
+}
+
+.principal span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 250;
+
+}
+
+
+
+
+
